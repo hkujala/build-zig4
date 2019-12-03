@@ -26,3 +26,5 @@ RUN    git clone https://github.com/hkujala/zonation-core \
     && make \
     && cd .. \
     && rm -rf zonation-core
+
+RUN    git clone https://github.com/cbig/zonation-tutorial \
